@@ -2,7 +2,7 @@
 
 ## python
 
-### 数组:
+### 数组:
 
  1. list
 
@@ -11,21 +11,21 @@
     pop() ----delete last item
     pop(index)  -----delete index item
 
- 2. tuple（onlyread,can't change）
+ 2. tuple（onlyread,can't change）
 
     当只有一个元素时， such as 
 
     t=(1,)
     t=("d",)
     
-    类似js里面的const 
+    类似js里面的const 
     指向不变 即可 
  --------
   3. range(num) 生成数组  list(range(num)) 生成list
 
   4. dict dictionary 字典
   something in dict    return false 
-  dict.get(something,returnSomeThing)
+  dict.get(something,return SomeThing)
 
 eg: dict和list比较
  - dict 查找和插入速度快，不会随着key的增加而增加
