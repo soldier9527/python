@@ -1,0 +1,7 @@
+print(abs(-4))
+print(max(2,3,4,5,-2,33))
+print(bool(None))
+print(bool(0))
+print(bool(""))
+print(bool())
+print(bool(" "))
