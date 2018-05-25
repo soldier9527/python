@@ -53,3 +53,7 @@ dict的key必须是不可变对象
   每次都能return，计算结果当时就计算出来了
 
   但python没有对尾递归做优化，结果还是不能解决堆栈溢出的问题
+
+  8. iteration 
+  
+  python 迭代比c高级，只要时可迭代对象都可以，比如list，dict，字符串
