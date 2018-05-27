@@ -57,3 +57,10 @@ dict的key必须是不可变对象
   8. iteration 
   
   python 迭代比c高级，只要时可迭代对象都可以，比如list，dict，字符串
+
+  9. 列表生成式 list [n.lower() for n in interation if n xxx ]
+
+  10. generator 和列表生成式类似 把 [] 变成（）
+   一个函数中包含 yield，那这个函数就是generator
+   每次执行会从上一次的yield处执行
+   有时候需要捕获异常
