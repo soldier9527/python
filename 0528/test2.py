@@ -3,7 +3,11 @@
 def triangles():
     L=[1]
     n=0
-    L = (l for l in L )
+    pass
+
+print([1]+[2])
+# 完全不会
+
 
 
 

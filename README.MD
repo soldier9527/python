@@ -64,3 +64,29 @@ dict的key必须是不可变对象
    一个函数中包含 yield，那这个函数就是generator
    每次执行会从上一次的yield处执行
    有时候需要捕获异常
+
+   11. 迭代器
+
+### 总结
+
+ iteration: list tuple dict set str
+  判断可迭代对象： iterable 
+  from collections import Iterable
+  isinstance(xxxxx,Iterable)
+
+  将可叠戴对象转成 索引-队列  enumerate()
+
+  generator: next() StopInteration yield
+
+
+  #### Iterable/Iterator
+
+  生成器都是Iterator对象，但list、dict、str虽然是Iterable，却不是Iterator。
+
+  把list、dict、str等Iterable变成Iterator可以使用iter()函数：
+
+  for => Iterable
+
+  next() => Iterator
+
+  ## Functional Programming  面向过程的程序设计的基本单元
